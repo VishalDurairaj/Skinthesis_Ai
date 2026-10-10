@@ -1,0 +1,45 @@
+﻿# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# ML weights and models
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.bin
+
+# Ephemeral user data & uploads
+uploads/
+temp/
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
